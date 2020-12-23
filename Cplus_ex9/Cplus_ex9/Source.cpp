@@ -15,7 +15,10 @@ T1  setMass(T1 a, int size)
 {
 
 		for (int i = 0; i < size; i++) {
-			a.push_back(rand() % 100 + 1);
+			double b = (double)(rand()) / RAND_MAX * (size - 2) + 2;
+			double c = rand() % 100 + 1;
+			double d = (i % 2 == 0) ? b : c;
+			a.push_back(d);
 		}
 	
 	
@@ -28,8 +31,15 @@ T1  setMass(T1 a, int size)
 template <typename T>
 void  printMass(T a)
 {
-	for (int n : a)
-		std::cout << n << "\t";
+	for (double n : a){
+		if (fabs(n - (int)n)> 0) {
+			printf("%1.10f\t", n);
+		}
+		else {
+			printf("%1.0f\t", n);
+		}
+		
+	}
 }
 
 std::list<double> myList;

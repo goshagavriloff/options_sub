@@ -1,21 +1,9 @@
 ﻿  Source.cpp
-C:\Users\vanya\source\repos\Cplus_ex9\Cplus_ex9\Source.cpp(57,24): warning C4244: аргумент: преобразование "double" в "_Ty", возможна потеря данных
+C:\Users\vanya\source\repos\git_zabegalov\Cplus_ex9\Cplus_ex9\Source.cpp(68,24): warning C4244: аргумент: преобразование "double" в "_Ty", возможна потеря данных
           with
           [
               _Ty=float
           ]
-C:\Users\vanya\source\repos\Cplus_ex9\Cplus_ex9\Source.cpp(46,9): warning C4101: m: неиспользованная локальная переменная
-C:\Users\vanya\source\repos\Cplus_ex9\Cplus_ex9\Source.cpp(44,6): warning C4101: i: неиспользованная локальная переменная
-C:\Users\vanya\source\repos\Cplus_ex9\Cplus_ex9\Source.cpp(31,1): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
-C:\Users\vanya\source\repos\Cplus_ex9\Cplus_ex9\Source.cpp(54): message : выполняется компиляция ссылки на экземпляр шаблон функции "void printMass<std::list<double,std::allocator<double>>>(T)"
-          with
-          [
-              T=std::list<double,std::allocator<double>>
-          ]
-C:\Users\vanya\source\repos\Cplus_ex9\Cplus_ex9\Source.cpp(31,1): warning C4244: инициализация: преобразование "float" в "int", возможна потеря данных
-C:\Users\vanya\source\repos\Cplus_ex9\Cplus_ex9\Source.cpp(60): message : выполняется компиляция ссылки на экземпляр шаблон функции "void printMass<std::vector<float,std::allocator<float>>>(T)"
-          with
-          [
-              T=std::vector<float,std::allocator<float>>
-          ]
-  Cplus_ex9.vcxproj -> C:\Users\vanya\source\repos\Cplus_ex9\Debug\Cplus_ex9.exe
+C:\Users\vanya\source\repos\git_zabegalov\Cplus_ex9\Cplus_ex9\Source.cpp(57,9): warning C4101: m: неиспользованная локальная переменная
+C:\Users\vanya\source\repos\git_zabegalov\Cplus_ex9\Cplus_ex9\Source.cpp(55,6): warning C4101: i: неиспользованная локальная переменная
+  Cplus_ex9.vcxproj -> C:\Users\vanya\source\repos\git_zabegalov\Cplus_ex9\Debug\Cplus_ex9.exe
